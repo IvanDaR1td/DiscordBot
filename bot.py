@@ -13,7 +13,7 @@ datei = open('bot-log.txt','a')
 datei.write("\r\n" + str(now) + "     Bot gestartet")
 datei.close()
 
-TOKEN = 'OTUzMDkxMDY2MTA0NTQxMTk0.Yi_hOQ.-DK-pTU1GfndIMYTTJfzKYIuBwc'
+TOKEN = 'Token'
 
 client = commands.Bot(command_prefix='-')
 
